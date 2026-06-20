@@ -209,6 +209,29 @@
           margin: 1.6cm;
         }
       }
+
+      @media screen and (max-width: 700px) {
+        body {
+          padding: 0;
+        }
+
+        .page {
+          width: 100%;
+          min-height: auto;
+          padding: 1rem;
+          margin: 0;
+          box-shadow: none;
+        }
+
+        .subsection {
+          grid-template-columns: 4em auto;
+          grid-gap: 0.4em;
+        }
+
+        .subsection-left {
+          font-size: 7pt;
+        }
+      }
     </style>
   </head>
   <body>
