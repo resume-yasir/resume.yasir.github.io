@@ -59,6 +59,7 @@
         font-size: 9pt;
         padding-left: 1em;
         position: relative;
+        text-align: justify;
       }
 
       ul {
@@ -122,7 +123,7 @@
       .subsection {
         display: grid;
         grid-gap: 0.6em;
-        grid-template-columns: 7.0em auto;
+        grid-template-columns: 5em auto;
         margin-top: 0.5em;
         page-break-inside: avoid;
       }
@@ -131,7 +132,7 @@
         color: #333; margin-top: 0.5em;
         grid-column-start: 1;
         text-align: right;
-        font-size: 8pt; font-family: Arial, Helvetica, sans-serif;
+        font-size: 8pt;
       }
 
       .subsection-right {
@@ -140,11 +141,16 @@
         line-height: 1.45;
       }
 
+      .sub {
+        font-size: 9pt;
+      }
+
       .subsection-right p {
         margin-bottom: 0.3em;
       }
 
       .full-width {
+        font-size: 10pt;
         line-height: 1.4;
         margin-top: 0.8em;
         text-align: justify;
@@ -154,17 +160,27 @@
         margin-bottom: 0.3em;
       }
 
+      .skills-block {
+        font-size: 10pt;
+        line-height: 1.65;
+        margin-top: 0.4em;
+      }
+
+      .skill-label {
+        font-weight: 700;
+        color: #333;
+      }
+
       .print-footer {
-        text-align: center;
+        text-align: right;
         margin-top: 1.5em;
-        padding-top: 1em;
-        border-top: 1px solid #ddd;
       }
 
       .print-footer a {
         color: #888;
         font-size: 9pt;
         text-decoration: none;
+        font-family: 'Helvetica', 'Arial', sans-serif;
       }
 
       .print-footer a:hover {
@@ -209,25 +225,29 @@
       <div class="full-width">
         Experienced Robotics Perception &amp; AI Engineer and former Research Professor specializing in transforming 
         autonomous systems into adaptive physical AI agents. Proven track record in designing multi-modal sensor fusion 
-        pipelines, deep learning systems across South Korea, Denmark, and Pakistan. 
+        pipelines, deep learning systems across Denmark, Pakistan, and South Korea. 
         Accomplished a strong academic publication record 
         with a practical ability to deploy advanced AI directly onto physical robotic systems.
       </div>
 
       <div class="section-title">Research Interests</div>
-      <div class="full-width">
-        Deep Learning &middot; Computer Vision &middot; Robotics (Perception & AI) &middot; Classification / Detection / Segmentation &middot; Depth Estimation &middot; AR/VR &middot; Autonomous Vehicles
+      <div style="font-size: 9pt; display: flex; justify-content: space-between; margin-top: 0.8em;">
+        <span>Deep Learning</span>
+        <span>Computer Vision</span>
+        <span>Robotics (Perception &amp; AI)</span>
+        <span>Depth Estimation</span>
+        <span>AR/VR</span>
+        <span>Autonomous Vehicles</span>
       </div>
 
       <div class="section-title">Education &amp; Training</div>
 
       <div class="subsection">
-        <div class="subsection-left">Mar 2019 – Feb 2023</div>
+        <div class="subsection-left">2019 ~ 2023</div>
         <div class="subsection-right">
-          <b>PhD in Engineering (Computer Vision, AI)</b><br>
-          Mechanical System Engineering, Tongmyong University, Busan South Korea<br>
+          <b>PhD in Engineering (Computer Vision, AI) &mdash; Mechanical System Engineering, Tongmyong University, South Korea</b><br>
           <ul>
-            <li>Fully funded Professor's Fellowship co-funded by the BK21 program</li>
+            <li>Fully funded Professor's Fellowship co-funded by the BK21 program &mdash; GPA: 4.2 / 4.5</li>
             <li>Advisor: Prof. Hyunsik Ahn</li>
             <li>Dissertation: "3D Instance Segmentation using Deep Learning"</li>
             <li>Proposed a novel 3D instance segmentation framework that synthesizes monocular camera streams with deep learning-generated depth maps to construct accurate 3D environments, mapping 2D RGB segments directly into 3D space for robust object detection and scene understanding.</li>
@@ -236,22 +256,20 @@
       </div>
 
       <div class="subsection">
-        <div class="subsection-left">Sep 2008 – Mar 2011</div>
+        <div class="subsection-left">2008 ~ 2011</div>
         <div class="subsection-right">
-          <b>Master of Science in Computer Science</b><br>
-          Blekinge Institute of Technology, Karlskrona, Sweden<br>
+          <b>Master of Science in Computer Science &mdash; Blekinge Institute of Technology, Sweden</b><br>
           <ul>
-            <li>Fully funded scholarship (Tuition + Stipend) by the Ministry of Education, Sweden</li>
-            <li>Thesis: "An Integration of Policy and Reputation based Trust Mechanisms"</li>
+            <li>Fully funded scholarship (Tuition + Stipend) by the Ministry of Education, Sweden &mdash; A+ grade in Master thesis</li>
+            <li>Dissertation: "An Integration of Policy and Reputation based Trust Mechanisms" &mdash; employed machine learning techniques to model, analyze, and predict trust dynamics in decentralized multi-agent systems, leveraging supervised classification and reputation aggregation methods to derive robust conclusions on agent reliability.</li>
           </ul>
         </div>
       </div>
 
       <div class="subsection">
-        <div class="subsection-left">Sep 2005 – Mar 2007</div>
+        <div class="subsection-left">2005 ~ 2007</div>
         <div class="subsection-right">
-          <b>Master in Information Technology</b><br>
-          Quaid-i-Azam University, Islamabad, Pakistan<br>
+          <b>Master in Information Technology &mdash; Quaid-i-Azam University, Pakistan</b><br>
           <ul>
             <li>Fully funded scholarship by Software Technology Park, Islamabad</li>
           </ul>
@@ -259,10 +277,9 @@
       </div>
 
       <div class="subsection">
-        <div class="subsection-left">Sep 2000 – Mar 2004</div>
+        <div class="subsection-left">2000 ~ 2004</div>
         <div class="subsection-right">
-          <b>Bachelor of Science in Computer Science</b><br>
-          Allama Iqbal Open University, Islamabad, Pakistan<br>
+          <b>Bachelor of Science in Computer Science &mdash; Allama Iqbal Open University, Pakistan</b><br>
           <ul>
             <li>Partially funded by University Scholarship</li>
           </ul>
@@ -272,9 +289,9 @@
       <div class="section-title">Professional Experience</div>
 
       <div class="subsection">
-        <div class="subsection-left">Oct 2025 – Jul 2026</div>
+        <div class="subsection-left">Oct 2025 ~ Jul 2026</div>
         <div class="subsection-right">
-          <b>Robotics Engineer (Perception &amp; AI)</b>, RGT Robot Global Team, Seoul, South Korea<br>
+          <b>Research Engineer (Perception &amp; AI), RGT Robot Global Team, Seoul, South Korea</b><br>
           <ul>
             <li>Designed and implemented an autonomous precision-docking system utilizing target-tracking cameras and 2D LiDAR feedback loops for seamless charging station alignment</li>
             <li>Developed and deployed a multi-modal human detection system by fusing raw data from 2D LiDAR and RGB/Depth cameras to achieve highly robust spatial awareness</li>
@@ -285,9 +302,9 @@
       </div>
 
       <div class="subsection">
-        <div class="subsection-left">Mar 2023 – Jun 2025</div>
+        <div class="subsection-left">Mar 2023 ~ Jun 2025</div>
         <div class="subsection-right">
-          <b>Research Professor</b>, Dept. of Electrical and Information Systems, SeoulTech, South Korea<br>
+          <b>Research Professor, Dept. of Electrical and Information Systems, SeoulTech, South Korea</b><br>
           <ul>
             <li>Developed and evaluated deep learning models for computer vision tasks using OpenCV, Keras, PyTorch, TensorFlow, and scikit-learn with Python as the primary language</li>
             <li>Focused on performance optimization and real-time inference aligned with current AI trends</li>
@@ -298,9 +315,9 @@
       </div>
 
       <div class="subsection">
-        <div class="subsection-left">Jun 2016 – Feb 2019</div>
+        <div class="subsection-left">Jun 2016 ~ Feb 2019</div>
         <div class="subsection-right">
-          <b>Senior Lecturer</b>, School of Computing and Engineering, Lahore Leads University, Pakistan<br>
+          <b>Senior Lecturer, School of Computing &amp; Engineering, Lahore Leads University, Pakistan</b><br>
           <ul>
             <li>Taught and conducted research in AI and Computer Vision, covering theory and model development</li>
             <li>Supervised industrial projects and advised graduate research dissertations</li>
@@ -309,9 +326,9 @@
       </div>
 
       <div class="subsection">
-        <div class="subsection-left">Mar 2011 – Apr 2015</div>
+        <div class="subsection-left">Mar 2011 ~ Apr 2016</div>
         <div class="subsection-right">
-          <b>Software Engineer</b>, Edixen Solutions, Copenhagen, Denmark<br>
+          <b>Software Engineer, Edixen Solutions, Copenhagen, Denmark</b><br>
           <ul>
             <li>Led a mid-sized team of 20+ engineers across multi-phased research initiatives</li>
             <li>Drove direct impact on product development spanning web, API, and mobile platforms</li>
@@ -322,31 +339,19 @@
       <div class="section-title">Research Funding &amp; Grants</div>
 
       <div class="subsection">
-        <div class="subsection-left">Sep 2022</div>
+        <div class="subsection-left">30 Sep 2022<br>3rd Position</div>
         <div class="subsection-right">
-          <b>Busan Datathon Competition &ndash; 3rd Position</b><br>
+          <b>Busan Datathon Competition</b><br>
           Korea Intelligence Information Society, Digital Ministry &ndash; Busan Techno Park
           <ul>
-            <li>Championed a medical image classification and segmentation initiative by engineering a high-precision model.</li>
-            <li>Secured 3rd place in the competition for designing and proposing the winning algorithmic solution.</li>
+            <li>Challenge: medical image classification &amp; segmentation &mdash; architected a deep learning model to deliver high diagnostic precision.</li>
+            <li>Awarded 3rd place for designing and proposing a winning deep learning-based algorithmic solution for clinical decision support.</li>
           </ul>
         </div>
       </div>
 
       <div class="subsection">
-        <div class="subsection-left">Jun 2021 – May 2023</div>
-        <div class="subsection-right">
-          <b>Brain Busan21+</b><br>
-          Intelligent Port Logistics Location Tracking Based on Blockchain
-          <ul>
-            <li>Proposed &amp; developed a blockchain-based prototype for real-time intelligent port logistics tracking.</li>
-              <li>Delivered scalable system architectures designed to optimize supply chain transparency and drive measurable maritime industry outcomes.</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="subsection">
-        <div class="subsection-left">May 2022 – Oct 2022</div>
+        <div class="subsection-left">Academic Year 2022</div>
         <div class="subsection-right">
           <b>University Innovation Research Development Project</b><br>
           Development of deep learning-based vision system for surface defect recognition
@@ -358,7 +363,7 @@
       </div>
 
       <div class="subsection">
-        <div class="subsection-left">May 2022 – Dec 2022</div>
+        <div class="subsection-left">Academic Year 2022</div>
         <div class="subsection-right">
           <b>Collabo R&amp;D &ndash; Ministry of SMEs and Startups</b><br>
           Collaborative Multi-Robot-Based Wiring Harness Assembly and Inspection Smart System
@@ -370,7 +375,19 @@
       </div>
 
       <div class="subsection">
-        <div class="subsection-left">Mar 2018 – Nov 2019</div>
+        <div class="subsection-left">Academic Year 2021</div>
+        <div class="subsection-right">
+          <b>Brain Busan21+</b><br>
+          Intelligent Port Logistics Location Tracking Based on Blockchain
+          <ul>
+            <li>Proposed &amp; developed a blockchain-based prototype for real-time intelligent port logistics tracking.</li>
+              <li>Delivered scalable system architectures designed to optimize supply chain transparency and drive measurable maritime industry outcomes.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="subsection">
+        <div class="subsection-left">Academic Year 2019</div>
         <div class="subsection-right">
           <b>Korea Institute of Geological Resources</b><br>
           Image Recognition and 3D Information Technology for Geological Disaster Response
@@ -416,7 +433,7 @@
       </div>
 
       <div class="subsection">
-        <div class="subsection-left">Computers, Materials & Continua 2023</div>
+        <div class="subsection-left">Computers, Materials &amp; Continua 2023</div>
         <div class="subsection-right">
           <b>Faster Metallic Surface Defect Detection Using Deep Learning with Channel Shuffling</b><br>
           Siddiqui M.Y. &amp; Ahn H. &mdash; <i>Computers, Materials &amp; Continua</i>, vol. 75(1), pp. 1847–1861, 2023
@@ -424,7 +441,7 @@
       </div>
 
       <div class="subsection">
-        <div class="subsection-left">Computers, Materials & Continua 2022</div>
+        <div class="subsection-left">Computers, Materials &amp; Continua 2022</div>
         <div class="subsection-right">
           <b>3D Instance Segmentation Using Deep Learning on RGB-D Indoor Data</b><br>
           Siddiqui M.Y., Sadiq A.M. &amp; Ahn H. &mdash; <i>Computers, Materials &amp; Continua</i>, vol. 72(3), pp. 5777–5791, 2022
@@ -432,48 +449,42 @@
       </div>
 
       <div class="subsection">
-        <div class="subsection-left">Journal on Artificial Intelligence 2022</div>
+        <div class="subsection-left">Journal on AI 2022</div>
         <div class="subsection-right">
           <b>Deep Learning-Based 3D Instance and Semantic Segmentation: A Review</b><br>
-          Siddiqui M.Y. &amp; Ahn H. &mdash; <i>Journal on Artificial Intelligence</i>, vol. 4(2), pp. 99–114, 2022
+          Siddiqui M.Y. &amp; Ahn H. &mdash; <i>Journal on AI</i>, vol. 4(2), pp. 99–114, 2022
         </div>
       </div>
 
-
-
       <div class="section-title">Technical Skills</div>
-      <div class="full-width" style="font-size:9pt; line-height:1.6;">
-        <b>Programming Languages:</b> Python, C++, Unix Shell Scripting, SQL, PHP &nbsp;&middot;&nbsp;
-        <b>ML/DL:</b> TensorFlow, PyTorch, Keras, scikit-learn, OpenCV &nbsp;&middot;&nbsp;
-        <b>AI Models:</b> CNN, GPT, BERT, Transformers<br>
-        <b>Core Expertise:</b> 3D Segmentation, Depth Estimation, Object Detection, Deepfake Detection, Surface Defect Recognition &nbsp;&middot;&nbsp;
-        <b>Robotics:</b> 2D LiDAR, RGB-D cameras, sensor fusion, autonomous docking &nbsp;&middot;&nbsp;
-        <b>Tools:</b> Git, Linux, Docker, Jupyter
+      <div class="skills-block">
+        <span class="skill-label">Core AI Domains:</span> <span class="sub">2D/3D Instance/Semantic Classification/Segmentation/Detection &middot; Depth Estimation &middot; Object Detection &middot; Deepfake Detection &middot; Anomaly Recognition and Detection</span><br>
+        <span class="skill-label">ML/DL Frameworks:</span> <span class="sub">PyTorch &middot; TensorFlow &middot; OpenCV &middot; ONNX &middot; OpenVINO &middot; Quantization &middot; TensorRT &middot; TFLite</span><br>
+        <span class="skill-label">Robotics &amp; Perception:</span> <span class="sub">ROS 1 &middot; ROS 2 &middot; Multi-Modal Sensor Fusion &middot; RGB-D Cameras &middot; 2D LiDAR &middot; Autonomous Docking</span><br>
+        <span class="skill-label">Development Tools:</span> <span class="sub">Linux &middot; Docker &middot; Git &middot; Jupyter &middot; Python &middot; C++ &middot; HTML/CSS &middot; Unix Shell Scripting &middot; SQL</span>
       </div>
 
       <div class="section-title">References</div>
- <div class="subsection">
+      <div class="subsection">
         <div class="subsection-left">Dr. Kim Dohyung</div>
         <div class="subsection-right">
-          Team Lead, RGT Robot Global Team, Seoul, South Korea<br>
-          <a href="mailto:dh_kim@rgt.kr">dh_kim@rgt.kr</a> &mdash; +82-10-2745-5754
+          <b>Team Lead, <span class="sub">RGT Robot Global Team, Seoul, South Korea</span></b><br>
+          <span class="sub"><a href="mailto:dh_kim@rgt.kr">dh_kim@rgt.kr</a> &mdash; +82-10-2745-5754</span>
         </div>
       </div>
       <div class="subsection">
         <div class="subsection-left">Dr. Hyun Kim</div>
         <div class="subsection-right">
-          Associate Professor, Dept. of Electrical and Information Engineering<br>
-          Seoul National University of Science and Technology (SeoulTech)<br>
-          <a href="mailto:hyunkim@seoultech.ac.kr">hyunkim@seoultech.ac.kr</a> &mdash; +82-010-9600-5427
+          <b>Associate Professor, <span class="sub">Dept. of Electrical and Information Engineering, Seoul National University of Science &amp; Technology (SeoulTech), South Korea</span></b><br>
+          <span class="sub"><a href="mailto:hyunkim@seoultech.ac.kr">hyunkim@seoultech.ac.kr</a> &mdash; +82-010-9600-5427</span>
         </div>
       </div>
 
       <div class="subsection">
         <div class="subsection-left">Dr. Hyunsik Ahn</div>
         <div class="subsection-right">
-          Professor, School of Artificial Intelligence &amp; Convergence<br>
-          Tongmyong University, Busan, South Korea<br>
-          <a href="mailto:hsahn@tu.ac.kr">hsahn@tu.ac.kr</a> &mdash; +82-010-2518-4777
+          <b>Professor, <span class="sub">School of Artificial Intelligence &amp; Convergence, Tongmyong University, Busan, South Korea</span></b><br>
+          <span class="sub"><a href="mailto:hsahn@tu.ac.kr">hsahn@tu.ac.kr</a> &mdash; +82-010-2518-4777</span>
         </div>
       </div>
 
